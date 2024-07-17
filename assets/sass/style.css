@@ -158,7 +158,7 @@ h1:hover {
   background-size: cover;
   height: 25vh;
   background-position: center;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .img-sizing:hover {
@@ -395,9 +395,105 @@ h5 {
 footer {
   height: 15vh;
   color: white;
-  background-color: #3A4F52;
+  background-color: #2B3E51;
 }
 footer p {
   margin-left: 10%;
   padding-top: 3%;
+}
+
+@media only screen and (max-width: 922px) {
+  .landingpage {
+    background-position: center;
+    height: 50vh;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+  }
+  .latest-works {
+    width: 90%;
+    height: 60vh;
+  }
+  .latest-works .img-sizing {
+    height: 8rem;
+  }
+  .services {
+    height: 102vh;
+  }
+  .grid-services {
+    display: flex;
+    flex-direction: column;
+  }
+  .transparent {
+    width: 95%;
+  }
+  .blog {
+    width: 95%;
+    height: 80vh;
+  }
+  .pic-with-content img {
+    width: 100%;
+  }
+  .testimonials {
+    height: 120vh;
+    width: 95%;
+  }
+  .testimonials .flexbox {
+    flex-direction: column;
+  }
+  .person {
+    margin: 2rem;
+  }
+  .person p {
+    margin: 0;
+  }
+  .person .querymargin {
+    margin-top: 1rem;
+  }
+  .contact {
+    height: 50vh;
+  }
+  .contact .transparent {
+    height: 40vh;
+    width: 100%;
+  }
+  .flexbox-contact input {
+    width: 70%;
+    height: 8%;
+  }
+  .flexbox-contact button {
+    height: 2.5rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .latest-works {
+    height: 100rem;
+  }
+  .latest-works .img-sizing {
+    height: 13rem;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-sizing {
+    height: 15rem;
+  }
+  .blog {
+    height: 115rem;
+  }
+  .flexbox {
+    flex-direction: column;
+  }
+  .pic-with-content {
+    margin: 2rem 0;
+  }
+  .quote {
+    height: 40rem;
+  }
+  .testimonials {
+    height: 74rem;
+  }
 }/*# sourceMappingURL=style.css.map */

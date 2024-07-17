@@ -207,6 +207,42 @@ h4 {
   text-align: center;
 }
 
+.blog {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+.blog p {
+  font-family: "Helvetica-Neue-Regular";
+  color: #6a6a6a;
+  margin-bottom: 5%;
+}
+
+h5 {
+  color: #3A4F52;
+  font-size: 1.6rem;
+  font-family: "Alegreya-Sans-Medium";
+  margin: 5% 0;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pic-with-content {
+  margin-right: 3.2%;
+  max-width: 25rem;
+}
+.pic-with-content a {
+  color: #4da7ca;
+  text-decoration: none;
+  font-family: "Helvetica-Neue-Regular";
+}
+.pic-with-content a:hover {
+  text-decoration: underline;
+}
+
 .quote {
   background-image: url(../img/6f4d0914c7b5ddb743f600df2edc50bf.png);
   background-attachment: fixed;
@@ -437,42 +473,6 @@ footer p {
     height: 74rem;
   }
 }
-.blog {
-  width: 80%;
-  margin: 0 auto;
-  margin-bottom: 5rem;
-}
-.blog p {
-  font-family: "Helvetica-Neue-Regular";
-  color: #6a6a6a;
-  margin-bottom: 5%;
-}
-
-h5 {
-  color: #3A4F52;
-  font-size: 1.6rem;
-  font-family: "Alegreya-Sans-Medium";
-  margin: 5% 0;
-}
-
-.flexbox {
-  display: flex;
-  justify-content: space-between;
-}
-
-.pic-with-content {
-  margin-right: 3.2%;
-  max-width: 25rem;
-}
-.pic-with-content a {
-  color: #4da7ca;
-  text-decoration: none;
-  font-family: "Helvetica-Neue-Regular";
-}
-.pic-with-content a:hover {
-  text-decoration: underline;
-}
-
 @font-face {
   font-family: "AlegreyaSC-Regular";
   src: url(../font/AlegreyaSC-Regular.ttf);

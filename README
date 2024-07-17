@@ -11,5 +11,7 @@ I startet by writing down the whole HTML. I was thinking which div containers I 
 
 ## CSS and SCSS
 
-After my HTML was finished I started wrting down my SCSS Code. First 
+After my HTML was finished I started wrting down my SCSS Code. First I've written down all the non hover effects to make the Website pretty, afterwards I made the Hover effects. Lastley I did the Media Queries. I splitted all the sections into Modules to make the code more readable.
+
+
 

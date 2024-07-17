@@ -31,9 +31,9 @@ button:hover a {
 
 .landingpage {
   background-image: url(../img/0f6f55ffff18a259b1383b2fd9d785aa.png);
-  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
   color: white;
 }
 
@@ -122,12 +122,12 @@ h1:hover {
 }
 
 .img-sizing {
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
   height: 25vh;
-  background-position: center;
   transition: 0.3s;
 }
 
@@ -170,10 +170,10 @@ h1:hover {
 .services {
   background-image: url(../img/8d72e0af708f1d83a868ba81ee657811.png);
   background-attachment: fixed;
-  height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 70vh;
   color: white;
   display: flex;
   justify-content: center;
@@ -246,10 +246,10 @@ h5 {
 .quote {
   background-image: url(../img/6f4d0914c7b5ddb743f600df2edc50bf.png);
   background-attachment: fixed;
-  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 50vh;
   color: white;
   display: flex;
   justify-content: center;
@@ -302,10 +302,10 @@ h5 {
 
 .contact {
   background-image: url(../img/0f059263e745af4cc020ae3acf5695ac.png);
-  height: 75vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 75vh;
   color: white;
   display: flex;
   justify-content: center;

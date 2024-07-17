@@ -39,12 +39,12 @@
 }
 
 .img-sizing{
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
     height: 25vh;
-    background-position: center;
     transition: .3s;
 }
 

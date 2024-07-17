@@ -7,7 +7,7 @@ h3 {
 button {
   background-color: transparent;
   border: solid 1px;
-  width: 10vh;
+  width: 6rem;
 }
 button a {
   color: #3A4F52;
@@ -137,6 +137,8 @@ h1:hover {
 }
 .img-sizing:hover button {
   opacity: 1;
+  height: 1.5rem;
+  font-size: 0.7rem;
 }
 .img-sizing:hover button:hover {
   color: #3A4F52;

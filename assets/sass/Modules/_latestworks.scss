@@ -34,28 +34,35 @@
 }
 
 .hover-effects {
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
-    background-color: #0e5447;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+
 }
 
 .img-sizing{
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 25vh;
+}
+
+.hover-effects:hover {
+    transform: scale(1.5);
     transition: .3s;
 }
 
 .img-sizing:hover {
-    opacity: 0.3;
-    transform: scale(1.5);
+    background-color: rgba(1, 95, 95, 0.604);
 
     button {
-        opacity: 1;
         height: 1.5rem;
         font-size: 0.7rem;
+        opacity: 1;
     }
 
     button:hover {

@@ -367,7 +367,7 @@ footer p {
   }
   .blog {
     width: 95%;
-    height: 80vh;
+    height: 40rem;
   }
   .pic-with-content img {
     width: 100%;
@@ -414,8 +414,12 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+  .pictures button {
+    opacity: 1;
+  }
   .img-sizing {
     height: 15rem;
+    opacity: 0.5;
   }
   .blog {
     height: 115rem;

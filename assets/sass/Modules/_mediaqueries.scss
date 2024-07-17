@@ -11,7 +11,7 @@
         margin-left: 0.5rem;
     }
 
-    // latest works section
+    // latest works section tablet
 
     .latest-works {
         width: 90%;
@@ -23,7 +23,7 @@
     }
 
 
-    // Services section
+    // Services section tablet
 
     .services {
         height: 102vh;
@@ -38,11 +38,11 @@
         width: 95%;
     }
 
-    // blog section
+    // blog section tablet
 
     .blog {
         width: 95%;
-        height: 80vh;
+        height: 40rem;
     }
 
     .pic-with-content {
@@ -51,7 +51,7 @@
         }
     }
 
-    //testimonials section
+    //testimonials section tablet
 
     .testimonials {
         height: 120vh;
@@ -74,7 +74,7 @@
         }
     }
 
-    // footer section
+    // footer section tablet
 
     .contact {
         height: 50vh;
@@ -99,7 +99,7 @@
 
 @media only screen and (max-width:576px) {
 
-    // latest works section
+    // latest works section phone
     .latest-works {
         height: 100rem;
 
@@ -111,13 +111,18 @@
     .pictures {
         display: flex;
         flex-direction: column;
+
+        button {
+            opacity: 1;
+        }
     }
 
     .img-sizing {
         height: 15rem;
+        opacity: 0.5;
     }
 
-    // blog section
+    // blog section phone
 
     .blog {
         height: 115rem;
@@ -131,7 +136,7 @@
         margin: 2rem 0;
     }
 
-    // quote section
+    // quote section phone
 
     .quote {
         height: 40rem;

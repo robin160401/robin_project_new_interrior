@@ -1,0 +1,32 @@
+h3 {
+    color: #3A4F52;
+    font-size: 2rem;
+    font-family:"Alegreya-Sans-Medium";
+}
+
+button {
+    background-color: transparent;
+    border: solid 1px;
+    width: 10vh;
+    
+    a {
+        color: #3A4F52;
+        text-decoration: none;
+    }
+}
+
+button:hover {
+    background-color: #3A4F52;
+    transition: 0.5s;
+
+    a {
+        color: white;
+        transition: 0.5s;
+    }
+}
+
+.transparent {
+    background-color: #00000033;
+    width: 80%;
+    text-align: center;
+}

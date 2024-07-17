@@ -1,0 +1,41 @@
+.quote {
+    background-image: url(../img/6f4d0914c7b5ddb743f600df2edc50bf.png);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        font-family: "Alegreya-Sans-Medium";
+        font-size: 2rem;
+        padding: 2%;
+    }
+
+    button {
+        background-color: transparent;
+        border: solid 1px;
+        border-color: white;
+        width: 20vh;
+        height:3rem;
+        margin: 2%;
+    
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+    }
+
+    button:hover {
+        background-color: white;
+        transition: 0.5s;
+
+        a {
+            color: #3A4F52;
+        }
+    }
+}
